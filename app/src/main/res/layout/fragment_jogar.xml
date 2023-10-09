@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:orientation="vertical"
+    tools:context=".FragmentJogar"
+    tools:visibility="visible">
+
+
+    <TextView
+        android:id="@+id/textViewPergunta"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="5dp"
+        android:background="#03A9F4"
+        android:gravity="center"
+        android:text="@string/pergunta" />
+
+    <TextView
+        android:id="@+id/textViewResposta"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_below="@id/textViewPergunta"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="5dp"
+        android:background="#4CAF50"
+        android:gravity="center"
+        android:text="@string/resposta"
+        tools:visibility="visible" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/buttonExibirResposta"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/exibir_resposta"
+                android:drawableEnd="@android:drawable/ic_menu_search"
+                />
+
+            <Button
+                android:id="@+id/buttonPular"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawableEnd="@android:drawable/ic_media_next"
+                android:text="@string/pular" />
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/buttonCadastrar"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="@string/cadastrar_perguntas_e_respostas"
+            android:drawableEnd="@android:drawable/ic_menu_preferences" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">FragmentAnswersGame</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="exibir_resposta">Exibir Resposta</string>
+    <string name="pular">Pular</string>
+    <string name="cadastrar_perguntas_e_respostas">Cadastrar Perguntas e Respostas</string>
+    <string name="resposta">Resposta:</string>
+    <string name="pergunta">Pergunta:</string>
+    <string name="cadastrar">Cadastrar</string>
+    <string name="voltar">Voltar</string>
+</resources>
