@@ -52,14 +52,14 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="@string/exibir_resposta"
                 android:drawableEnd="@android:drawable/ic_menu_search"
-                />
+                android:text="@string/exibir_resposta" />
 
             <Button
                 android:id="@+id/buttonPular"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="bottom"
                 android:layout_weight="1"
                 android:drawableEnd="@android:drawable/ic_media_next"
                 android:text="@string/pular" />
@@ -67,7 +67,7 @@
 
 
         <Button
-            android:id="@+id/buttonCadastrar"
+            android:id="@+id/buttonCadastrarPerguntasRespostas"
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1"
