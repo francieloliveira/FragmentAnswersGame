@@ -1,10 +1,10 @@
-package com.example.fragmentanswersgame;
+package com.example.fragmentanswersgame.view;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
-
 import android.os.Bundle;
+import com.example.fragmentanswersgame.R;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -18,6 +18,5 @@ public class MainActivity extends AppCompatActivity {
         FragmentManager fragmentManager = getSupportFragmentManager();
         FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
         fragmentTransaction.replace(R.id.main_frame, fragmentJogar).commit();
-
     }
 }

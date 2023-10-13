@@ -9,4 +9,6 @@
     <string name="pergunta">Pergunta:</string>
     <string name="cadastrar">Cadastrar</string>
     <string name="voltar">Voltar</string>
+    <string name="qual_a_pergunta">Qual é a Pergunta?</string>
+    <string name="qual_a_resposta">Qual é a Resposta?</string>
 </resources>

@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:layout_margin="10dp"
-    tools:context=".CadastrarRespostas">
+    tools:context=".view.CadastrarRespostas">
 
     <TextView
         android:id="@+id/textViewPergunta"
@@ -24,7 +24,10 @@
         android:id="@+id/editTextPergunta"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/textViewPergunta"/>
+        android:layout_below="@id/textViewPergunta"
+        android:hint="@string/qual_a_pergunta"
+        android:inputType="text"
+        android:autofillHints="Qual é a Pergunta?" />
 
     <TextView
         android:id="@+id/textViewResposta"
@@ -43,7 +46,10 @@
         android:id="@+id/editTextResposta"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/textViewResposta"/>
+        android:layout_below="@id/textViewResposta"
+        android:hint="@string/qual_a_resposta"
+        android:inputType="text"
+        android:autofillHints="Qual é a Resposta?" />
 
     <LinearLayout
         android:layout_width="match_parent"
